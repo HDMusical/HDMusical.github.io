@@ -40,9 +40,10 @@
         .HD {
             width: 90px;
             height: 90px;
-            margin-right: 15px;
+            margin-top: 5px;
+            margin-right: 20px;
             padding-left: 5px;
-            margin-left: 15px;
+            margin-left: 20px;
             float: left;
         }
 
@@ -56,16 +57,16 @@
         .logo-rigth-text {
             color: white;
             float: left;
-            padding-top: 42px;
+            padding-top: 48px;
         }
 
         .logo-1 {
             width: 2px;
-            height: 40px;
+            height: 45px;
             background-color: white;
             float: left;
             margin-left: 20px;
-            margin-top: 40px;
+            margin-top: 41px;
         }
 
         .logo-2 {
@@ -609,22 +610,58 @@
             background-color:grey;
         }
         .title-4{
-            font-size: 28px;
+            font-size: 27px;
         }
 
-        @media (max-width:1200px) {
-            .all {
-                width: 100vw;
-            }
-            .slide-img {
-                width: 100vw;
-                margin: 0 auto;
-                
-            }
+        @media (max-width: 1000px) {
+
+        .all {
+            width: 100vw;
+        }
+
+        .slide-img {
+            width: 100vw;
+            margin: 0 auto;
+        }
+
+        .nav {
+            display: none;
+        }
+
+        .HD {
+            width: 80px;
+            height: 80px;
+            margin-top: 5px;
+            margin-left: 15px;
+            margin-right:3px;
+            padding-left: 5px;
+            float: left;
+        }
+            
+        .logo-rigth-text {
+            color: white;
+            float: left;
+            padding-top: 40px;
+            margin-left: 10px;
+        }
+
+        .logo-1 {
+            width: 2px;
+            height: 38px;
+            background-color: white;
+            float: left;
+            margin-left: 18px;
+            margin-top: 40px;
+        }
+
+        .logo-2{
+            font-size: 15px;
+            margin-top: 10;
+            margin-bottom: 10;    
         }
 
         .A {
-            width: 25%;
+             width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/ap700-1.jpg');
@@ -640,7 +677,7 @@
         }
 
         .B {
-            width: 25%;
+            width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/ap700-2.jpg');
@@ -656,7 +693,7 @@
         }
 
         .C {
-            width: 25%;
+            width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/flute.jpg');
@@ -672,7 +709,7 @@
         }
 
         .D {
-            width: 25%;
+            width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/voline-cello.jpg');
@@ -688,7 +725,7 @@
         }
 
         .E {
-            width: 25%;
+            width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/drum.jpg');
@@ -703,7 +740,7 @@
         }
 
         .F {
-            width: 25%;
+            width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/drum-1.jpg');
@@ -718,7 +755,7 @@
         }
 
         .G {
-            width: 25%;
+            width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/guzheng-1.jpg');
@@ -733,7 +770,7 @@
         }
 
         .H {
-            width: 25%;
+            width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/guitar.jpg');
@@ -748,7 +785,7 @@
         }
 
         .I {
-            width: 25%;
+            width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/peijian.jpg');
@@ -763,7 +800,7 @@
         }
 
         .J {
-            width: 25%;
+            width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/service.jpg');
@@ -778,7 +815,7 @@
         }
 
         .K {
-            width: 25%;
+            width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/company.jpg');
@@ -793,7 +830,7 @@
         }
 
         .L {
-            width: 25%;
+            width: calc(100%/3);
             height: 250px;
             transition: 2S;
             background-image: url('index-a/pchome.jpg');
@@ -806,453 +843,238 @@
             float: left;
             overflow: hidden;
         }
+    }
 
-        @media (max-width: 1000px) {
-            .all {
-                width: 100vw;
-            }
-            .slide-img {
-                width: 100vw;
-                margin: 0 auto;
-            }
-            .HD {
+        @media (max-width: 600px) {
+        .all {
+            width: 100vw;
+        }
+
+        .slide-img {
+            width: 100vw;
+            margin: 0 auto;
+        }
+
+        .nav {
+            display: none;
+        }
+
+        .HD {
             width: 70px;
             height: 70px;
-            margin-top: 10px;
+            margin-top: 6px;
             margin-left: 15px;
             margin-right:3px;
             padding-left: 5px;
             float: left;
-            }
-            .nav-big .nav {
-            width: 100%;
-            box-sizing: boder-box;
-            color: white;
-            font-size: 25px;
-            display: inline;
-            margin-right: 45px;
-            }
-            .nav-big .nav>li {
-            position: relative;
-            background-color: black;
-            display: inline;
-            margin-left: 20px;
         }
-
-        .nav-big .nav>li:hover {
-            color: blue;
-        }
-
-       .nav-big .dropdown {
-            width: 100px;
-            text-align: center;
-            list-style: none;
-            position: absolute;
-            background-color: black;
-            display: none;
-
-        }
-
-        .nav-big .dropdown-menu {
-            padding: 20px;
-            top: 22px;
-            min-width: auto;
-            word-break: keep-all;
-        }
-
-        .nav-big .dropdown-bigwidth {
-            width: 100px;
-            text-align: center;
-            list-style: none;
-            position: absolute;
-            background-color: gray;
-            display: none;
-        }
-
-        .nav-big .nav>li:hover>.dropdown-menu {
-            display: inline-block;
-            font-size: 20px;
-            margin-left: -20px;
-        }
-
-            .logo-rigth-text {
+            
+        .logo-rigth-text {
             color: white;
             float: left;
-            padding-top: 35px;
+            padding-top: 31px;
             margin-left: 10px;
-            }
-            .logo-1 {
+        }
+
+        .logo-1 {
             width: 2px;
-            height: 33px;
+            height: 38px;
             background-color: white;
             float: left;
             margin-left: 18px;
-            margin-top: 40px;
-            }
-            .logo-2{
+            margin-top: 31px;
+        }
+
+        .logo-2{
             font-size: 15px;
             margin-top: 10;
             margin-bottom: 10;    
-            }
-
-            .A {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/ap700-1.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                color: white;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .B {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/ap700-2.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                color: white;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .C {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/flute.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                color: white;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .D {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/voline-cello.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: left;
-                position: relative;
-                border: 10px solid gray;
-                color: white;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .E {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/drum.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .F {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/drum-1.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .G {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/guzheng-1.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .H {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/guitar.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .I {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/peijian.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .J {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/service.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .K {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/company.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .L {
-                width: calc(100%/3);
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/pchome.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
         }
 
-        @media (max-width: 600px) {
-            .all {
-                width: 100vw;
-            }
-            .slide-img {
-                width: 100vw;
-                margin: 0 auto;
-            }
-            .nav {
-                display: none;
-            }
-            .A {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/ap700-1.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                color: white;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .B {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/ap700-2.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                color: white;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .C {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/flute.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                color: white;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .D {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/voline-cello.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: left;
-                position: relative;
-                border: 10px solid gray;
-                color: white;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .E {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/drum.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .F {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/drum-1.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .G {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/guzheng-1.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .H {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/guitar.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .I {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/peijian.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .J {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/service.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .K {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/company.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
-            .L {
-                width: 100%;
-                height: 250px;
-                transition: 2S;
-                background-image: url('index-a/pchome.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                position: relative;
-                border: 10px solid gray;
-                box-sizing: border-box;
-                float: left;
-                overflow: hidden;
-            }
+        .A {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/ap700-1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border: 10px solid gray;
+            color: white;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
         }
+
+        .B {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/ap700-2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border: 10px solid gray;
+            color: white;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
+        }
+
+        .C {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/flute.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border: 10px solid gray;
+            color: white;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
+        }
+
+        .D {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/voline-cello.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: left;
+            position: relative;
+            border: 10px solid gray;
+            color: white;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
+        }
+
+        .E {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/drum.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border: 10px solid gray;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
+        }
+
+        .F {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/drum-1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border: 10px solid gray;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
+        }
+
+        .G {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/guzheng-1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border: 10px solid gray;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
+        }
+
+        .H {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/guitar.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border: 10px solid gray;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
+        }
+
+        .I {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/peijian.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border: 10px solid gray;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
+        }
+
+        .J {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/service.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border: 10px solid gray;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
+        }
+
+        .K {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/company.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border: 10px solid gray;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
+        }
+
+        .L {
+            width: 100%;
+            height: 250px;
+            transition: 2S;
+            background-image: url('index-a/pchome.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            border: 10px solid gray;
+            box-sizing: border-box;
+            float: left;
+            overflow: hidden;
+        }
+    }
 
         @media (min-width:601px) {
             .pc-nav {
@@ -1271,24 +1093,6 @@
 
             .mobile-nav {
                 display: flex;
-            }
-
-            .mobile-nav .HD{
-                width: 50px;
-                height: 50px;
-                margin-top: 0px;
-                margin-left: 0px;
-                margin-right:10px;
-                padding-left: 5px;
-            }
-           
-            .mobile-nav .logo-rigth-text{
-                padding-top: 0;
-            }
-           
-            .logo-2{
-            font-size: 13px;
-            padding: 2px;         
             }
         }
     </style>
@@ -1439,7 +1243,7 @@
                                 <div class="dropdown-menu title-3" aria-labelledby="navbarDropdown">
                                    
                                     <a class="dropdown-item title-2" 
-                                    href="jQuery-LINE.html" target="_blank">LINE@</a>   
+                                    href="jQuery-LINE@.html" target="_blank">LINE@</a>   
         
                                     <a class="dropdown-item title-2" 
                                     href="https://www.youtube.com/watch?v=vgxYYgRtE0k" target="_blank">Youtube</a>
