@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- ICO -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Modal_Info.css">
+    <link rel="stylesheet" href="css/Nav.css">
+    <link rel="stylesheet" href="css/Nav_Rwd.css">
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbarH">
+        <button class="navbar-toggler Navmenu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="navbar-brandImg" src="img/logo-Horizontal-white.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav marginL">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">現正熱映</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new.html">即將上映</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="GetTic.html">線上訂票</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-linkLast" href="about.html">關於我們</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAV 結束 -->
+    <div class="container">
+        <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLongTitle">電影介紹</h2>
+  
+          </div>
+          <div class="modal-body">
+            <div class="info">
+              <p>發行公司：牽猴子整合行銷股份有限公司
+              </p>
+              <br>
+              <p>
+                導演：莊景燊
+                <br>演員：吳慷仁 、 姚以緹 、 尹馨 、 徐詣帆 、 陳以文 、 陳家逵 、 藍葦華 、 朱陸豪 、 周群達(Ducan) 、 李劭婕
+              </p>
+              <p></p>
+              <p>
+                ★ 金獎團隊聯手打造
+                <br>★ 劇本屢獲金獎肯定：2017優良劇本、2013金馬創投 阿榮獎、MONEFF Award、CNC現金獎
+                <br>★ 法醫 × 檢察官 台灣近十年未見的懸疑議題電影
+              </p>
+              <br>
+            </div>
+            <div class="body_top">
+              <p>
+                &emsp;&emsp;難解的是案件？還是人心？
+              </p>
+              <p>&emsp;&emsp;縣長陳益達率領寶港村居民，激烈抗議通聯石化財團汙染漁港，一艘著了火的漁船卻突然駛來，船上更有一具燃燒中的人體！原來，他是寶港村漁民—康文海。自焚身亡的阿海瞬間成為全國焦點，通聯石化因此被勒令停工，阿海迅速成為寶港村英雄，帶頭抗議的陳縣長支持度持續攀升。
+              </p>
+              <p>&emsp;&emsp;檢察官金敏照背負壓力，負責偵辦阿海一案。同時，知名法醫周建生也奉命南下寶港村協助驗屍。在警方拉起的封鎖現場，周建生和金敏照再次重逢，原來曾是未婚夫妻的兩人，因這起全國矚目案件，又勾起了當年懸而未解的感情問題…
+              </p>
+              <p>&emsp;&emsp;當周建生為阿海解剖時，發現阿海已是肝癌末期，更驚人的是，阿海的腎臟，發出了不尋常的藍光！阿海的死因可能不是自焚！隨著案情陷入膠著，牽動各方利益的案件，已經越來越不單純…
+              </p>
+              <br>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <!-- Button trigger modal -->
+            <center>
+              <button type="button" class="btn btn-primary btn_mov" data-toggle="modal" data-target="#mov_HighFlash">
+                點我快去看預告片
+                <i class="fas fa-caret-right"></i>
+                <i class="fas fa-caret-right"></i>
+                <i class="fas fa-caret-right"></i>
+              </button>
+            </center>
+          </div>
+      </div>
+  <!-- Modal 10 -->
+  <div class="modal fade" id="mov_HighFlash" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog movie" role="document">
+      <iframe src="https://www.youtube.com/embed/tginvZuwK_0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- boostrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
