@@ -34,8 +34,29 @@
             padding:0;
         }
         .logo{
-            width:48px;
+            width:55px;
+            float: left;
         }
+        .logo-rigth-text{
+            float: left;
+            margin-top: 5px;
+        }
+        .logo-2{
+            font-size: 5px;
+            margin: 0;
+            margin-top: 5px;
+
+        }
+        .logo-1 {
+            width: 2px;
+            height: 32px;
+            background-color: white;
+            float: left;
+            margin-left: 18px;
+            margin-top: 15px;
+        }
+
+        
         .slider-1 {
             width: 100%;
             height: 100%;
@@ -72,6 +93,7 @@
             padding: 0 49px;
         }
 
+
         @media (max-width:1200px) {
             #card-swiper {
                 padding: 0 30px;
@@ -104,7 +126,16 @@
     <!-- 導覽列 -->
     <nav class="navbar navbar-expand-lg navbar-dark title-1">
         <div class="container">
-            <a class="navbar-brand"><img class="logo" src="index-b/apple.png" alt=""></a>
+            <a class="navbar-brand">
+                    <a class="navbar-brand" href="/">
+                <img class="logo" src="index-b/apple.png" alt="">
+                <div class="logo-rigth-text" logo-2>
+                    <p class="logo-2">apple Musical</p>
+                    <p class="logo-2">lnstruments.Co.Ltd.</p>
+                </div>
+                <div class="logo-1">
+                    </div>        
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -136,6 +167,10 @@
                         <a class="nav-link disabled" href="#"></a>
                     </li>
                 </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
             </div>
         </div>
     </nav>
