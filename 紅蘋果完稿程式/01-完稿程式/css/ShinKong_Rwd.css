@@ -1,0 +1,175 @@
+@media only screen and (max-width: 810px) {
+    .gDown {
+        display: none;
+    }
+    .gTop {
+        height: 100%;
+    }
+    .gTopColor {
+        display: none;
+    }
+    .container-fluid {
+        top: 0;
+        height: 100vh;
+        padding: 10vh 0 0 0;
+    }
+    .swTop {
+        display: flex;
+        flex-direction: column;
+    }
+    .cover {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        width: 100vw;
+        padding: 3vh 5vw 0 5vw;
+        background-color: black;
+        order: 2;
+    }
+    .swImgContainer {
+        height: 40vh;
+        display: flex;
+        order: 1;
+    }
+    .swImg {
+        height: 40vh;
+    }
+    .tip {
+        left: 0;
+        top: 35vh;
+        height: 5vh;
+    }
+    .nowplay {
+        height: 5vh;
+    }
+    .tipContainer {
+        top: 35vh;
+        height: 5vh;
+    }
+    .nowplaytext {
+        line-height: 5vh;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .Ename {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .timeText {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .mainInfo {
+        font-size: 14px;
+    }
+    .mainIntroduction{
+        display: none;
+    }
+    .mainDirector {
+        display: none;
+    }
+    .btn-group {
+        display: none;
+    }
+    .box {
+        transform: scaleX(1.1)
+    }
+    
+    .mainDirector {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .TopSlR{
+        display: block;
+        position: absolute;
+        top: 20vh;
+    }
+    .TopSlL{
+        display: block;
+        position: absolute;
+        top: 20vh;
+    }
+    .iconContainer{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        background-color: black;
+
+    }
+    .iconCollect {
+        display: flex;
+        justify-content: flex-end;
+        width: 90vw;
+        height: 15vh;
+    }
+    .icon {
+        margin-left: 3vw;
+    }
+    .iconInfo{
+        background-image: url("../img/icon/more-white-01.png");
+        width: 10vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .iconInfo:hover{
+        background-image: url("../img/icon/more-orange-01.png");
+        width: 10vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .iconVideo{
+        background-image: url("../img/icon/firsttosee-white-01.png");
+        width: 10vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .iconVideo:hover{
+        background-image: url("../img/icon/firsttosee-orange-01.png");
+        width: 10vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .iconGetTic{
+        background-image: url("../img/icon/booking-white-01.png");
+        width: 10vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .iconGetTic:hover{
+        background-image: url("../img/icon/booking-orange-01.png");
+        width: 10vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .iconTellMe{
+        background-image: url("../img/icon/Notice-white-01.png");
+        width: 10vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .iconTellMe:hover{
+        background-image: url("../img/icon/Notice-orange-01.png");
+        width: 10vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .TellMe {
+        position: absolute;
+        top: 33vh;
+        left: 15vw;
+    }
+}
