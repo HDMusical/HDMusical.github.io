@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- ICO -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Modal_Info.css">
+    <link rel="stylesheet" href="css/Nav.css">
+    <link rel="stylesheet" href="css/Nav_Rwd.css">
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbarH">
+        <button class="navbar-toggler Navmenu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="navbar-brandImg" src="img/logo-Horizontal-white.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav marginL">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">現正熱映</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new.html">即將上映</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="GetTic.html">線上訂票</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-linkLast" href="about.html">關於我們</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAV 結束 -->
+    <div class="container">
+        <div class="modal-header">
+            <h2 class="modal-title" id="exampleModalLongTitle">電影介紹</h2>
+  
+          </div>
+          <div class="modal-body">
+            <div class="info">
+              <p>發行公司：索尼</p>
+              <br>
+              <p>
+                導演：格恩迪塔塔科夫斯基
+                <br>演員：亞當山德勒(Adam Sandler) 、 席琳娜戈梅茲
+              </p>
+              <br>
+            </div>
+            <div class="body_top">
+              <p>
+                &emsp;&emsp;最受歡迎的怪獸成員全數到齊，而為了感謝德古拉每天認真工作的辛勞，大夥更驚喜計畫一趟最豪華的瘋狂郵輪假期，決心要讓德古拉好好”鬆”一下充電！
+              </p>
+              <p>&emsp;&emsp;然而正當所有人都陶醉在郵輪上的奢華體驗如怪獸排球、”夜”光浴和各式異國特色設施時，梅菲絲卻發現德古拉竟已掉入船長艾麗卡的神秘陷阱裡，且背後暗藏的危險秘密更可能會危害整個怪獸家族，讓原本快樂的出帆竟變成一場最可怕的噩夢？
+              </p>
+              <br>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <!-- Button trigger modal -->
+            <center>
+              <button type="button" class="btn btn-primary btn_mov" data-toggle="modal" data-target="#mov_HotelTransylvania3SummerVacation">
+                點我快去看預告片
+                <i class="fas fa-caret-right"></i>
+                <i class="fas fa-caret-right"></i>
+                <i class="fas fa-caret-right"></i>
+              </button>
+            </center>
+          </div>
+      </div>
+  <!-- Modal 6 -->
+  <div class="modal fade" id="mov_HotelTransylvania3SummerVacation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog movie" role="document">
+      <iframe src="https://www.youtube.com/embed/HapmbwgBMe4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- boostrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

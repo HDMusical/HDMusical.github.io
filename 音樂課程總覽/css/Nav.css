@@ -1,0 +1,38 @@
+.nav-link {
+    display: block;
+    padding: 1.25vh 12px!important;
+    color: white!important;
+}
+.nav-link:hover {
+    color:white!important;
+}
+.nav-linkLast{
+    padding-right: 0!important;
+}
+.navbarH {
+    padding: 0;
+    height: 7vh;
+    background-color: rgba(0, 0, 0, 1);
+}
+.navbar-brand {
+    padding: 1.25vh 3vw 1.25vh 0;
+    margin: 0;
+}
+
+.navbar-brand>img {
+    height: 4.5vh;
+}
+.Nav {
+    height: 7vh;
+}
+.marginL {
+    margin-left: auto;
+}
+.navBtn{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+.navBtn:focus {
+    outline: none;
+  }
